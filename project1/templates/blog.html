@@ -1,0 +1,190 @@
+<html lang="en-us" >
+<head>
+<title>Add post </title>
+<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css" />
+
+
+<script type="text/javascript" src="/admin/jsi18n/"></script>
+<script type="text/javascript" src="/static/admin/js/core.js"></script>
+<script type="text/javascript" src="/static/admin/js/vendor/jquery/jquery.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+<script type="text/javascript" src="/static/admin/js/admin/RelatedObjectLookups.js"></script>
+<script type="text/javascript" src="/static/admin/js/actions.js"></script>
+<script type="text/javascript" src="/static/admin/js/urlify.js"></script>
+<script type="text/javascript" src="/static/admin/js/prepopulate.js"></script>
+<script type="text/javascript" src="/static/admin/js/vendor/xregexp/xregexp.min.js"></script>
+<script type="text/javascript" src="/static/admin/js/calendar.js"></script>
+<script type="text/javascript" src="/static/admin/js/admin/DateTimeShortcuts.js"></script>
+
+<meta name="robots" content="NONE,NOARCHIVE" />
+</head>
+
+
+<body class=" app-app1 model-post change-form"
+  data-admin-utc-offset="19800">
+
+     
+    
+
+    <!-- Content -->
+    <div id="content" class="colM">
+        
+        <h1>Add post</h1>
+        <div id="content-main">
+
+
+
+<form enctype="multipart/form-data" action="/home/" method="post" id="post_form" novalidate><input type='hidden' name='csrfmiddlewaretoken' value='Jrb0jBrAmSLkMiyL9ragcap7mPSSc6Lp' />
+<div>
+
+
+
+
+
+
+
+  <fieldset class="module aligned ">
+    
+    
+    
+        <div class="form-row field-author">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_author">Author:</label>
+                        
+                            
+<div class="related-widget-wrapper">
+    <!--<select id="id_author" name="author">
+<option value="" selected="selected">---------</option>
+<option value=>shilpi_bose</option>
+</select>-->
+<input class="vTextField" id="id_author" maxlength="200" name="author" type="text" />
+    
+        
+        <a class="related-widget-wrapper-link change-related" id="change_id_author"
+            data-href-template="/admin/auth/user/__fk__/change/?_to_field=id&amp;_popup=1"
+            title="Change selected user">
+            <img src="/static/admin/img/icon-changelink.svg" alt="Change"/>
+        </a>
+        
+        
+        <a class="related-widget-wrapper-link add-related" id="add_id_author"
+            href="/admin/auth/user/add/?_to_field=id&amp;_popup=1"
+            title="Add another user">
+            <img src="/static/admin/img/icon-addlink.svg" alt="Add"/>
+        </a>
+        
+        
+    
+</div>
+
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-title">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_title">Title:</label>
+                        
+                            <input class="vTextField" id="id_title" maxlength="200" name="title" type="text" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-text">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_text">Text:</label>
+                        
+                            <textarea class="vLargeTextField" cols="40" id="id_text" name="text" rows="10">
+</textarea>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-created_date">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_created_date_0">Created date:</label>
+                        
+                            <p class="datetime">Date: <input class="vDateField" id="id_created_date_0" name="created_date_0" size="10" type="text" value="2016-02-07" /><br />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-published_date">
+            
+            
+                <div>
+                    
+                    
+                        <label for="id_published_date_0">Published date:</label>
+                        
+                            <p class="datetime">Date: <input class="vDateField" id="id_published_date_0" name="published_date_0" size="10" type="text" /><br />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="submit-row">
+<input type="submit" value="Save" class="default" name="_save" />
+</div>
+
+
+
+</div>
+</form></div>
+
+        
+        <br class="clear" />
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+</body>
+</html>
